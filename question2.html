@@ -4,8 +4,32 @@
     <title>Lab4 JS</title>
     
   </head>
-
+  <style>
+    table, th, td {
+      border:1px solid;
+      margin-top: 20px;
+    }
+    </style>
   <body>
+
+    <select id="users" size="4" onClick="displayUser()">
+      <option>Ahmed</option>
+      <option>Mohamed</option>
+      <option>Karim</option>
+      <option>Omar</option>
+    </select>
+    <table width="50%">
+      <tr> 
+        <th>Name</th>
+        <th>Age</th>
+        <th>Email</th>
+      </tr>
+      <tr>
+        <td id="name"></td>
+        <td id="age"></td>
+        <td id="email"></td>
+      </tr>
+    </table>
     
     <script src="question2.js"></script>
   </body>

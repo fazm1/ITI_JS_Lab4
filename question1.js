@@ -3,7 +3,6 @@ var images = ["images/img1.jpg", "images/img2.jpg", "images/img3.jpg", "images/i
 var i = 0;
 function hover() {
     interval = setInterval(function () {
-
         document.getElementById("slideshow").src = images[i]
         i++;
         if (i > 3) {
